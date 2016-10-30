@@ -28,7 +28,6 @@
 body {
     width: 100%;
     height: auto;
-    background-color: black;
 }
 
 main {
@@ -44,15 +43,15 @@ header {
     margin: 0 auto;
     height: 30px;
     background-color: white;
+    box-shadow: 0px 1px 1px dimgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    margin-left: -50%;
 }
 
 header nav {
-    position: absolute;
-    top: 0;
-    transform-origin: center;
-    width: 1280px;
-    left: 50%;
-    margin-left: -690px;
     height: 30px;
 }
 
@@ -87,7 +86,7 @@ header nav>ul>li>a {
 
 header nav>ul>li>a>img {
     margin: 0 auto;
-    margin-top: 3px;
+    margin-top: 2px;
     display: block;
 }
 
@@ -107,6 +106,8 @@ footer {
     height: 30px;
     background-color: #868E9C;
     position: relative;
+    border-top: 1px solid dimgrey;
+    box-shadow: 0px -1px 1px grey;
 }
 
 #footercontent {
@@ -151,32 +152,38 @@ footer {
 
 #footercontent nav>ul>li>a {
     display: block;
-    width:30px;
+    width: 30px;
     height: 30px;
 }
 
-#footercontent ul>li>a,#footercontent ul>li>a:hover{
+#footercontent ul>li>a,
+#footercontent ul>li>a:hover {
     transition: all ease 0.5s;
 }
-#footercontent ul>li:first-child>a{
+
+#footercontent ul>li:first-child>a {
     background: url(../images/footer/twitter.png) no-repeat center;
 }
-#footercontent ul>li:first-child>a:hover{
+
+#footercontent ul>li:first-child>a:hover {
     background: url(../images/footer/twitter_white.png) no-repeat center;
 }
-#footercontent ul>li:nth-child(2)>a{
+
+#footercontent ul>li:nth-child(2)>a {
     background: url(../images/footer/facebook.png) no-repeat center;
 }
-#footercontent ul>li:nth-child(2)>a:hover{
+
+#footercontent ul>li:nth-child(2)>a:hover {
     background: url(../images/footer/facebook_white.png) no-repeat center;
 }
-#footercontent ul>li:nth-child(3)>a{
+
+#footercontent ul>li:nth-child(3)>a {
     background: url(../images/footer/instagram.png) no-repeat center;
 }
-#footercontent ul>li:nth-child(3)>a:hover{
+
+#footercontent ul>li:nth-child(3)>a:hover {
     background: url(../images/footer/instagram_white.png) no-repeat center;
 }
-
 
 
 /** CONTENT **/
