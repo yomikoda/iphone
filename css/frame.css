@@ -108,6 +108,8 @@ footer {
     height: 30px;
     background-color: #868E9C;
     position: relative;
+    border-top:1px solid dimgrey;
+    box-shadow: 0px -1px 1px grey;
 }
 
 #footercontent {
