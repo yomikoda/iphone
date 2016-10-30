@@ -39,6 +39,11 @@ main {
 
 /** MAIN**/
 
+
+
+/** INTRODUCTION SECTION **/
+
+/** LEFT BLOCK **/
 #introduction{
     width:100%;
     height:900px;
@@ -53,12 +58,7 @@ main {
     position: relative;
     overflow: hidden;
 }
-#rightblock{
-    float:right;
-    padding-top:50px;
-    width:50%;
-    height:850px;
-}
+
 #leftblock h1{
     color:white;
     width:100%;
@@ -80,4 +80,46 @@ main {
     opacity:0;
     bottom:-1000px;
     transition:all ease 2s;
+}
+
+/** RIGHT BLOCK **/
+
+#rightblock{
+    float:right;
+    padding-top:50px;
+    width:50%;
+    height:850px;
+}
+
+#rightblock>p{
+    color:white;
+    font-family: quicksand-light;
+    font-size: 16px;
+    text-align: center;
+    width:355px;
+    height:170px;
+    margin:0 auto;
+    margin-top: 150px;   
+}
+
+#keynote,#tvads{
+    position: absolute;
+    margin-top:50px;
+    width:320px;
+    float:left;
+    height:300px;
+    transition: all ease 1s;
+}
+#keynote{
+    background-color:red;
+    left:50%;
+}
+#tvads{
+    background-color:dodgerblue;
+    right:0;
+}
+#keynote:hover,#tvads:hover{
+    z-index: 40;
+    width:640px;
+    transition: all ease 1s;
 }
