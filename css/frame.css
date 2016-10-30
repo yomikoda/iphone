@@ -33,13 +33,14 @@ body {
 main {
     width: 1280px;
     margin: 0 auto;
-    height: 2000px;
+    padding-top:30px;
 }
 
 
 /** MENU **/
 
 header {
+    z-index: 100;
     margin: 0 auto;
     height: 30px;
     background-color: white;
