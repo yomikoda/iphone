@@ -50,6 +50,8 @@ header {
     width: 100%;
     left: 50%;
     margin-left: -50%;
+    opacity:1;
+    transition:all ease 0.5s;
 }
 
 header nav {
