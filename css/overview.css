@@ -28,6 +28,7 @@
 body {
     width: 100%;
     height: auto;
+    overflow:visible;
 }
 
 main {
@@ -213,7 +214,7 @@ main {
 /** HIDDEN VIDEO DIVS REVEALD AT CLICK (JS) **/
 
 #keynotevid,#tvadsvid {
-    position: absolute;
+    position: fixed;
     top:0;
     z-index:0; 
     width: 100%;

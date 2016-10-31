@@ -32,6 +32,7 @@ $(function(){
     $('#keynote,#tvads').on('click',function(){
         
             $('#keynotevid,#tvadsvid').css({'opacity':'1','z-index':'120'});
+            $('body').css('overflow','hidden');
             //$('video').prop('muted',true);
                 
             });
@@ -39,6 +40,7 @@ $(function(){
      $('#close,#close2').on('click',function(){ // Tried it with a close class but doesn't work. Had to go through ID
         
             $('#keynotevid,#tvadsvid').css({'opacity':'0','z-index':'0'});
+         $('body').css('overflow','visible');
             //$('video').prop('muted',true);
                 
             });
