@@ -29,16 +29,16 @@ $(function(){
      /** CLICK EVENTS ON VIDEO DIVS **/
    
      
-    $('#keynote').on('click',function(){
+    $('#keynote,#tvads').on('click',function(){
         
-            $('#keynotevid').css({'opacity':'1','z-index':'120'});
+            $('#keynotevid,#tvadsvid').css({'opacity':'1','z-index':'120'});
             //$('video').prop('muted',true);
                 
             });
     
-     $('#close').on('click',function(){
+     $('#close,#close2').on('click',function(){ // Tried it with a close class but doesn't work. Had to go through ID
         
-            $('#keynotevid').css({'opacity':'0','z-index':'0'});
+            $('#keynotevid,#tvadsvid').css({'opacity':'0','z-index':'0'});
             //$('video').prop('muted',true);
                 
             });
