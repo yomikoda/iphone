@@ -27,22 +27,38 @@ $(function(){
         
         
      /** CLICK EVENTS ON VIDEO DIVS **/
-   
+   var video1 = $("#keynotevideo")[0];
+   var video2 = $("#tvadsvideo")[0];
      
-    $('#keynote,#tvads').on('click',function(){
+    $('#keynote').on('click',function(){
         
-            $('#keynotevid,#tvadsvid').css({'opacity':'1','z-index':'120'});
+            $('#keynotevid').css({'opacity':'1','z-index':'120'});
             $('body').css('overflow','hidden');
-            //$('video').prop('muted',true);
+            (video1.paused) 
+            video1.play();
+                
+            });
+    $('#tvads').on('click',function(){
+        
+            $('#tvadsvid').css({'opacity':'1','z-index':'120'});
+            $('body').css('overflow','hidden');
+            (video2.paused) 
+            video2.play();
                 
             });
     
-     $('#close,#close2').on('click',function(){ // Tried it with a close class but doesn't work. Had to go through ID
+     $('#close').on('click',function(){ // Tried it with a close class but doesn't work. Had to go through ID
         
-            $('#keynotevid,#tvadsvid').css({'opacity':'0','z-index':'0'});
+            $('#keynotevid').css({'opacity':'0','z-index':'0'});
+            $('body').css('overflow','visible');
+            $("#keynotevideo").get(0).pause(); 
+            });
+    $('#close2').on('click',function(){ // Tried it with a close class but doesn't work. Had to go through ID
+        
+            $('#tvadsvid').css({'opacity':'0','z-index':'0'});
          $('body').css('overflow','visible');
             //$('video').prop('muted',true);
-                
+               $("#tvadsvideo").get(0).pause(); 
             });
     
    
