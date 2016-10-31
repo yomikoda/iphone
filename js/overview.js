@@ -10,8 +10,7 @@ $(function(){
    
     
     /** FIGURE OUT WHY ITS NOT WORKING -__- **/
-    $(window).scroll(function(){
-         valeurDuScroll=$(window).scrollTop();
+   
               
         /** SMOOTH SCROLL ( ANCHORS + NAV ) **/
     
@@ -27,9 +26,26 @@ $(function(){
         
         
         
-     });
+     /** CLICK EVENTS ON VIDEO DIVS **/
+   
+     
+    $('#keynote').on('click',function(){
+        
+            $('#keynotevid').css({'opacity':'1','z-index':'120'});
+            //$('video').prop('muted',true);
+                
+            });
     
+     $('#close').on('click',function(){
+        
+            $('#keynotevid').css({'opacity':'0','z-index':'0'});
+            //$('video').prop('muted',true);
+                
+            });
     
+   
+    //ferme le click
+      
     
     
     
