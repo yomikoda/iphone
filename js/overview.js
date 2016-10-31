@@ -15,12 +15,12 @@ $(function(){
               
         /** SMOOTH SCROLL ( ANCHORS + NAV ) **/
     
-     $('#side>nav>ul>li:first-child').on('click',function(){
-        $('html,body').stop().animate({scrollTop:$('#introduction').offset().top-80},1000);
+     $('#side>ul>li:first-child').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#introduction').offset().top-30},1000);
         return false;
     });
-    $('#side>nav>ul>li:nth-child(2)').on('click',function(){
-        $('html,body').stop().animate({scrollTop:$('#splash').offset().top-80},1500);
+    $('#side>ul>li:nth-child(2)').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#splash').offset().top-30},1500);
         return false;
     });
 
