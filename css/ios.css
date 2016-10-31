@@ -1,0 +1,70 @@
+main {
+    width: 100%;
+    margin: 0 auto;
+    height: 664px;
+}
+
+.ios {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 255px;
+    left: 608px;
+    ;
+}
+
+.perf {
+    width: 341.5px;
+    height: 332px;
+    background-color: aqua;
+    float: right;
+}
+
+.perf1 {
+    width: 341.5px;
+    height: 332px;
+    background-color: red;
+    float: right;
+}
+
+.perf2 {
+    width: 341.5px;
+    height: 332px;
+    background-color: black;
+    float: right;
+}
+
+.perf3 {
+    width: 341.5px;
+    height: 332px;
+    background-color: yellow;
+}
+
+.perf4 {
+    width: 341.5px;
+    height: 332px;
+    background-color: yellow;
+    float: right;
+}
+
+.perf5 {
+    width: 341.5px;
+    height: 332px;
+    background-color: black;
+    float: right;
+}
+
+.perf6 {
+    width: 341.5px;
+    height: 332px;
+    background-color: red;
+    float: right;
+}
+
+.perf7 {
+    width: 341.5px;
+    height: 332px;
+    background-color: aqua;
+}
