@@ -224,14 +224,21 @@ main {
     transition:all ease 1s;
 }
 #close,#close2{
+    background: url(../images/overview/close.png) no-repeat center;
     z-index: 130;
     position : absolute;
-    height:30px;
-    width:30px;
-    background-color:dodgerblue;
+    height:50px;
+    width:50px;
     top:30px;
     right:30px;    
     cursor:pointer;
+    opacity:1;
+    transition: all ease 1s;
+}
+
+#close:hover,#close2:hover{
+    opacity: 0.5;
+    transition: all ease 1s;
 }
 #vidbg1,#vidbg2{
     height:100%;
