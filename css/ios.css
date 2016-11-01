@@ -8,63 +8,126 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 75px;
-    background-color: greenyellow;
+    background-color: black;
     position: absolute;
     top: 255px;
     left: 608px;
-    ;
+}
+
+.ios h2 {
+    position: absolute;
+    top: 65px;
+    left: 37px;
+    font-family: "quicksand-regular";
+    color: white;
 }
 
 .perf {
     width: 341.5px;
     height: 332px;
-    background-color: aqua;
     float: right;
+    border: 2px solid grey;
+}
+
+.perf h2 {
+    position: absolute;
+    top: 164px;
+    left: 81%;
+    font-family: "quicksand-regular";
 }
 
 .perf1 {
     width: 341.5px;
     height: 332px;
-    background-color: red;
     float: right;
+    border: 2px solid grey;
+}
+
+.perf1 h2 {
+    position: absolute;
+    top: 164px;
+    left: 55%;
+    font-family: "quicksand-regular";
 }
 
 .perf2 {
-    width: 341.5px;
+    width: 331.5px;
     height: 332px;
-    background-color: black;
     float: right;
+    border: 2px solid grey;
+}
+
+.perf2 h2 {
+    position: absolute;
+    top: 164px;
+    left: 31%;
+    font-family: "quicksand-regular";
 }
 
 .perf3 {
-    width: 341.5px;
+    width: 338.5px;
     height: 332px;
-    background-color: yellow;
+    border: 2px solid grey;
+}
+
+.perf3 h2 {
+    position: absolute;
+    top: 164px;
+    left: 5%;
+    font-family: "quicksand-regular";
 }
 
 .perf4 {
     width: 341.5px;
     height: 332px;
-    background-color: yellow;
     float: right;
+    border: 2px solid grey;
+}
+
+.perf4 h2 {
+    position: absolute;
+    top: 480px;
+    left: 81%;
+    font-family: "quicksand-regular";
 }
 
 .perf5 {
     width: 341.5px;
     height: 332px;
-    background-color: black;
     float: right;
+    border: 2px solid grey;
+}
+
+.perf5 h2 {
+    position: absolute;
+    top: 480px;
+    left: 55%;
+    font-family: "quicksand-regular";
 }
 
 .perf6 {
-    width: 341.5px;
+    width: 331.5px;
     height: 332px;
-    background-color: red;
     float: right;
+    border: 2px solid grey;
+}
+
+.perf6 h2 {
+    position: absolute;
+    top: 480px;
+    left: 31%;
+    font-family: "quicksand-regular";
 }
 
 .perf7 {
-    width: 341.5px;
+    width: 338.5px;
     height: 332px;
-    background-color: aqua;
+    border: 2px solid grey;
+}
+
+.perf7 h2 {
+    position: absolute;
+    top: 480px;
+    left: 5%;
+    font-family: "quicksand-regular";
 }
