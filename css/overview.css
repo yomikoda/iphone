@@ -271,3 +271,58 @@ main section:nth-child(2),main section:nth-child(4){
 /** SECTION SPLASH **/
 
 /** SECTION SUPERSPECS **/
+#superspecs{
+    position: relative;
+}
+/** SUPERSPECS NAV **/
+#superspecs>nav{
+    position: absolute;
+    z-index: 100;
+    left:50%;
+    margin-left:-230px;
+    margin-top:60px;
+}
+#superspecs>nav>ul{
+    list-style: none;
+    height:20px;
+}
+#superspecs>nav>ul>li{
+    float: left;
+    width:100px;
+    text-align: center;
+    height:20px;
+    background-color:white;
+    border-radius: 5px;
+    font-family: quicksand-regular;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+#superspecs>nav>ul>li:last-child{
+    margin-right:0;
+}
+
+#camera,#display,#sound,#os{
+    position: absolute;
+    height:900px;
+    width:1280px;
+    transition: all ease 1s;
+}
+#camera{
+    background-color:blue;
+    left:0px;
+}
+#display{
+    background-color: yellow;
+    left:1280px;
+    
+}
+#sound{
+    background-color:pink;
+    left:1280px;
+}
+#os{
+    background-color:purple;
+    left:1280px;
+}

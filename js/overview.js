@@ -77,8 +77,33 @@ $(function(){
     //ferme le click
       
     
-    
-    
+    // SUPERSPECS SECTION - HANDLING OF OUT OF OVERFLOW DIVS COMING-ING
+        $('#superspecs>nav>ul>li:first-child').on('click',function(){
+            $('#camera').css('left','0');
+            $('#display').css('left','1280px'); 
+            $('#sound').css('left','1280px');  
+            $('#os').css('left','1280px'); 
+            }); 
+        $('#superspecs>nav>ul>li:nth-child(2)').on('click',function(){
+            $('#display').css('left','0');
+            $('#camera').css('left','1280px');
+            $('#sound').css('left','1280px');  
+            $('#os').css('left','1280px'); 
+            });
+         $('#superspecs>nav>ul>li:nth-child(3)').on('click',function(){
+            $('#sound').css('left','0');
+            $('#camera').css('left','1280px');
+            $('#display').css('left','1280px');   
+            $('#os').css('left','1280px');   
+            });
+         $('#superspecs>nav>ul>li:nth-child(4)').on('click',function(){
+            $('#os').css('left','0');
+            $('#camera').css('left','1280px');
+            $('#display').css('left','1280px');
+            $('#sound').css('left','1280px');    
+            });  
+            
+   
     
      
     
