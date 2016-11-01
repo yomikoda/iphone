@@ -11,13 +11,14 @@ main {
     background-color: black;
     position: absolute;
     top: 255px;
-    left: 608px;
+    left: 597px;
+    border: 2px solid grey;
 }
 
 .ios h2 {
     position: absolute;
-    top: 65px;
-    left: 37px;
+    top: 64px;
+    left: 40px;
     font-family: "quicksand-regular";
     color: white;
 }
@@ -36,6 +37,11 @@ main {
     font-family: "quicksand-regular";
 }
 
+.perf5 input {
+    width: 341.5px;
+    height: 332px;
+}
+
 .perf1 {
     width: 341.5px;
     height: 332px;
@@ -46,7 +52,7 @@ main {
 .perf1 h2 {
     position: absolute;
     top: 164px;
-    left: 55%;
+    left: 56%;
     font-family: "quicksand-regular";
 }
 
@@ -73,7 +79,8 @@ main {
 .perf3 h2 {
     position: absolute;
     top: 164px;
-    left: 5%;
+    left: 6%;
+    width: 100px;
     font-family: "quicksand-regular";
 }
 
@@ -130,4 +137,64 @@ main {
     top: 480px;
     left: 5%;
     font-family: "quicksand-regular";
+}
+
+#simp {
+    width: 100%;
+    height: 664px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    display: none;
+}
+
+.exit {
+    width: 23px;
+    position: absolute;
+    left: 98%;
+    top: 8px;
+}
+
+#simp img {
+    position: absolute;
+    top: 20px;
+    left: 713px;
+    width: 500px;
+}
+
+.h3 {
+    font-family: "quicksand-regular";
+    font-size: 30px;
+    width: 446px;
+    padding-top: 24px;
+    padding-left: 100px;
+}
+
+.h2 {
+    font-family: "quicksand-regular";
+    padding-top: 100px;
+    padding-left: 170px;
+}
+
+.text {
+    font-family: "quicksand-regular";
+    width: 452px;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+#performance {
+    width: 100%;
+    height: 664px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#performance img {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    width: 703px;
 }
