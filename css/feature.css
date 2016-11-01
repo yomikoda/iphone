@@ -1,0 +1,38 @@
+.wrapper {
+    padding-left: 84px;
+    padding-right: 84px;
+}
+
+body {
+    background-color: white;
+}
+
+.title-phone {
+    margin-left: 46%;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+/*--------------------available-colors-------------------------*/
+
+.phone-color {
+    margin-left: 37%;
+}
+
+.available-colors {
+    margin-left: 30%;
+}
+
+.margin-top {
+    margin-top: 3%;
+    position: relative;
+}
+
+.text-color {
+    margin-right: 382px;
+    float: right;
+}
+
+
+/*---------------------------------------------*/
