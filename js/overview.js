@@ -22,6 +22,18 @@ $(function(){
         $('html,body').stop().animate({scrollTop:$('#splash').offset().top-30},1500);
         return false;
     });
+     $('#side>ul>li:nth-child(3)').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#superspecs').offset().top-30},2000);
+        return false;
+    });
+     $('#side>ul>li:nth-child(4)').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#accessories').offset().top-30},2500);
+        return false;
+    });
+     $('#side>ul>li:nth-child(5)').on('click',function(){
+        $('html,body').stop().animate({scrollTop:$('#getyourstoday').offset().top-30},3000);
+        return false;
+    });
 
         
         
