@@ -1,39 +1,63 @@
-     function AfficherMasquer() {
-         divInfo = document.getElementById('simp');
+$(".perf3").click(function () {
+    $("#simp").fadeIn("slow");
+});
 
-         if (divInfo.style.display == 'none')
-             divInfo.style.display = 'block';
-         else
-             divInfo.style.display = 'none';
+$(".exit").click(function () {
+    $("#simp").fadeOut("slow");
+});
 
-     }
+$(".perf2").click(function () {
+    $("#performance").fadeIn("slow");
+});
 
-     function Masquer() {
-         divInfo = document.getElementById('simp');
+$(".exit").click(function () {
+    $("#performance").fadeOut("slow");
+});
 
-         if (divInfo.style.display == 'block')
-             divInfo.style.display = 'none';
-         else
-             divInfo.style.display = 'block';
+$(".perf1").click(function () {
+    $("#exp").fadeIn("slow");
+});
 
-     }
+$(".exit").click(function () {
+    $("#exp").fadeOut("slow");
+});
 
-     function Afficherbloc1() {
-         divInfo = document.getElementById('performance');
+$(".perf").click(function () {
+    $("#int").fadeIn("slow");
+});
 
-         if (divInfo.style.display == 'none')
-             divInfo.style.display = 'block';
-         else
-             divInfo.style.display = 'none';
+$(".exit").click(function () {
+    $("#int").fadeOut("slow");
+});
 
-     }
+$(".perf7").click(function () {
+    $("#cloud").fadeIn("slow");
+});
 
-     function Masquerb1() {
-         divInfo = document.getElementById('performance');
+$(".exit").click(function () {
+    $("#cloud").fadeOut("slow");
+});
 
-         if (divInfo.style.display == 'block')
-             divInfo.style.display = 'none';
-         else
-             divInfo.style.display = 'block';
+$(".perf6").click(function () {
+    $("#ass").fadeIn("slow");
+});
 
-     }
+$(".exit").click(function () {
+    $("#ass").fadeOut("slow");
+});
+
+$(".perf5").click(function () {
+    $("#app").fadeIn("slow");
+});
+
+$(".exit").click(function () {
+    $("#app").fadeOut("slow");
+});
+
+$(".perf4").click(function () {
+    $("#and").fadeIn("slow");
+});
+
+$(".exit").click(function () {
+    $("#and").fadeOut("slow");
+});
