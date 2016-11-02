@@ -1,6 +1,10 @@
+* {
+    font-family: quicksand;
+}
+
 .wrapper {
-    padding-left: 84px;
-    padding-right: 84px;
+    margin-left: 84px;
+    margin-right: 84px;
 }
 
 body {
@@ -10,18 +14,25 @@ body {
 .title-phone {
     margin-left: 46%;
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 56px;
+    margin-bottom: 23px;
+}
+
+h3 {
+    font-style: bold;
+    font-size: 30px;
 }
 
 
 /*--------------------available-colors-------------------------*/
 
 .phone-color {
-    margin-left: 37%;
+    margin-left: 36%;
 }
 
 .available-colors {
-    margin-left: 30%;
+    position: absolute;
+    margin-left: 335px;
 }
 
 .margin-top {
@@ -30,9 +41,66 @@ body {
 }
 
 .text-color {
-    margin-right: 382px;
-    float: right;
+    margin-left: 519px;
+    margin-top: 4px;
+}
+
+.margin-top-colorie {
+    margin-top: 27px;
 }
 
 
-/*---------------------------------------------*/
+/*---------------------Capacity------------------------*/
+
+.feature-grey {
+    border-top: solid 3px grey;
+    margin-top: 89px;
+    width: 1112px;
+    margin-left: 6%;
+}
+
+.capacity-in {
+    margin-top: 20px;
+}
+
+.bloc-capacity {
+    margin-top: -71px;
+    position: absolute;
+    margin-left: 460px;
+    font-size: 24px;
+    float: left;
+}
+
+.bloc-capacity p {
+    margin: 40px;
+}
+
+.margin-capacity {
+    margin-top: 10px;
+    float: left;
+}
+
+.big-capacity {
+    margin-top: 46px;
+}
+
+.exception {
+    font-size: 15px;
+    display: block;
+    max-resolution: res;
+    n-left: -51px;
+}
+
+
+/*---------------------bloc-img------------------------*/
+
+.bloc-img {
+    background-image: url("images/carateristique/iPhone7-4.png");
+    background-repeat: no-repeat;
+    height: 350px;
+    border: solid 1px red;
+    width: 100%;
+}
+
+
+/*---------------------bloc-img------------------------*/
