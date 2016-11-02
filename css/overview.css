@@ -5,7 +5,9 @@ main {
     overflow: hidden;
 }
 
-
+body{
+    overflow-x: hidden;
+}
 /** MAIN**/
 
 /**SECTIONS' HEIGHT **/
@@ -281,15 +283,55 @@ main section:nth-child(4){
 }
 
 /** SECTION SPLASH **/
+#splash{
+    background:url(../images/overview/splash-background.jpg) center no-repeat;
+}
 
 #splash>h2{
     text-align: center;
     font-family: quicksand-light;
     font-size: 50px;
-    padding-top:100px; 
+    padding-top:100px;
+    margin-bottom: 100px;
+    
 }
-
-
+#splash div:nth-child(3){
+    background:url(../images/overview/black-iphone-7.png) center no-repeat;
+}
+#splash div:nth-child(4){
+    background:url(../images/overview/matte-black-iphone-7.png) center no-repeat;
+}
+#splash div:nth-child(5){
+    background:url(../images/overview/silver-iphone-7.png) center no-repeat;
+}
+#splash div:nth-child(6){
+    background:url(../images/overview/gold-iphone-7.png) center no-repeat;
+}
+#splash div:nth-child(7){
+    background:url(../images/overview/pink-iphone-7.png) center no-repeat;
+}
+.phone{
+    position: relative;
+    height:326px;
+    width:164px;
+    float :left;
+    margin-left:76px;
+}
+.phone p{
+    position: absolute;
+    width:164px;
+    text-align: center;
+    font-size: 15px;
+    font-family: quicksand-regular;
+    bottom:10px;
+    opacity: 0;
+    transition:all ease 1s;
+}
+.phone:hover p{
+    opacity: 1;
+    transition:all ease 1s;
+    bottom:-30px
+}
 
 
 
