@@ -12,8 +12,8 @@ body {
 }
 
 .title-phone {
-    margin-left: 46%;
-    font-size: 30px;
+    margin-left: 44%;
+    font-size: 35px;
     margin-top: 56px;
     margin-bottom: 23px;
 }
@@ -86,9 +86,9 @@ h3 {
 
 .exception {
     font-size: 15px;
+    float: left;
+    margin-left: -33px;
     display: block;
-    max-resolution: res;
-    n-left: -51px;
 }
 
 
