@@ -410,15 +410,11 @@ main section:nth-child(4){
 #camera{
     left:0px;
 }
-#display{
-    background-color: yellow;
+#display,#sound{
     left:1280px;
     
 }
-#sound{
-    background-color:pink;
-    left:1280px;
-}
+
 #os{
     background-color:purple;
     left:1280px;
@@ -435,10 +431,10 @@ main section:nth-child(4){
 #camera div:first-child{
     background:url(../images/overview/camera-section.jpg) no-repeat center;
 }
-#camera div:nth-child(2){
+#camera div:nth-child(2),#display div:nth-child(2){
     background-color:black;
 }
-#camera div:nth-child(2) p{
+#camera div:nth-child(2) p,#display div:nth-child(2) p{
     color:white;
     font-family: quicksand-light;
     font-size: 20px;
@@ -450,4 +446,42 @@ main section:nth-child(4){
     left:50%;
     margin-top:-110px;
     margin-left:-200px;
+}
+
+/** DISPLAY SECTION **/
+
+#display div:first-child{
+    background:url(../images/overview/display-section.jpg) no-repeat center;
+}
+#display div:nth-child(2){
+    background-color:black;
+}
+
+/** SOUND SECTION **/
+#sound div:first-child{
+    background:url(../images/overview/sound-section.jpg) no-repeat center;
+}
+#sound div:nth-child(2){
+    background-color:white;
+}
+#sound div:nth-child(2) p{
+     color:black;
+    font-family: quicksand-light;
+    font-size: 20px;
+    width:400px;
+    height:200px;
+    text-align: center;
+    margin:0 auto;
+}
+#sound em{
+    width:100%;
+    text-align: center;
+    font-family: quicksand-regular;
+    font-style: normal;
+    font-size:21px;
+    display: inline-block;
+    margin: 20px auto;
+}
+#sound div:nth-child(2) p:first-child{
+    margin-top:300px;
 }
