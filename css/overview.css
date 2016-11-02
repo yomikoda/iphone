@@ -292,8 +292,15 @@ main section:nth-child(4){
     font-family: quicksand-light;
     font-size: 50px;
     padding-top:100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     
+}
+#splash p:nth-child(2){
+    text-align: center;
+    font-family: quicksand-light;
+    font-size: 20px;
+    
+    margin-bottom: 100px;
 }
 #splash div:nth-child(3){
     background:url(../images/overview/black-iphone-7.png) center no-repeat;
@@ -316,7 +323,31 @@ main section:nth-child(4){
     width:164px;
     float :left;
     margin-left:76px;
+    margin-top:-30px;
+    animation-name: adanceofphones;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+#splash .phone:nth-child(4),#splash .phone:nth-child(6){
+    animation-name: adanceofphonesreverse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+ /* Phone animation - ADD WEBKITS FOR OTHER BROWSERS ! <----------  !!! */ 
+@keyframes adanceofphones {
+    0%   {margin-top:-30px;}
+    50%  {margin-top:50px;}
+    100% {margin-top:-30px;}
+}
+@keyframes adanceofphonesreverse {
+    0%   {margin-top:50px;}
+    50%  {margin-top:-30px;}
+    100% {margin-top:50px;}
+}
+/**END OF PHONE ANIMATION **/
 .phone p{
     position: absolute;
     width:164px;
@@ -336,6 +367,7 @@ main section:nth-child(4){
 
 
 /** SECTION SUPERSPECS **/
+
 #superspecs{
     position: relative;
 }
