@@ -14,7 +14,7 @@ main {
     height:900px;
 }
 
-main section:nth-child(2),main section:nth-child(4){
+main section:nth-child(4){
     background-color:red;
 }
 
@@ -241,6 +241,17 @@ main section:nth-child(2),main section:nth-child(4){
 }
 
 /** SECTION SPLASH **/
+
+#splash>h2{
+    text-align: center;
+    font-family: quicksand-light;
+    font-size: 50px;
+    padding-top:100px; 
+}
+
+
+
+
 
 /** SECTION SUPERSPECS **/
 #superspecs{
