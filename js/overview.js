@@ -9,7 +9,7 @@ $(function(){
 });
    
     
-    /** FIGURE OUT WHY ITS NOT WORKING -__- **/
+    
    
               
         /** SMOOTH SCROLL ( ANCHORS + NAV ) **/
@@ -39,6 +39,7 @@ $(function(){
         
         
      /** CLICK EVENTS ON VIDEO DIVS **/
+    
    var video1 = $("#keynotevideo")[0];
    var video2 = $("#tvadsvideo")[0];
      
@@ -74,10 +75,11 @@ $(function(){
             });
     
    
-    //ferme le click
+   
       
     
-    // SUPERSPECS SECTION - HANDLING OF OUT OF OVERFLOW DIVS COMING-ING
+    // SUPERSPECS SECTION - HANDLING OF OUT OF OVERFLOW DIVS COMING IN
+        //----> FIND SIMPLER WAY TO DO IT <-----
         $('#superspecs>nav>ul>li:first-child').on('click',function(){
             $('#camera').css('left','0');
             $('#display').css('left','1280px'); 
