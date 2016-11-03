@@ -335,3 +335,9 @@ main {
     top: 7px;
     left: 84px;
 }
+
+#performance,#exp,#int,#cloud,#ass,#app,#and{
+    z-index: 200;
+}
+
+footer{z-index: 210;}
