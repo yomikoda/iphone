@@ -85,16 +85,16 @@ $(function(){
             $('#os').css('left','1280px'); 
             }); 
         $('#superspecs>nav>ul>li:nth-child(2)').on('click',function(){
-            $('#display').css('left','0');
-            $('#camera').css('left','1280px');
-            $('#sound').css('left','1280px');  
-            $('#os').css('left','1280px'); 
-            });
-         $('#superspecs>nav>ul>li:nth-child(3)').on('click',function(){
             $('#sound').css('left','0');
             $('#camera').css('left','1280px');
             $('#display').css('left','1280px');   
-            $('#os').css('left','1280px');   
+            $('#os').css('left','1280px');
+            });
+         $('#superspecs>nav>ul>li:nth-child(3)').on('click',function(){ 
+            $('#display').css('left','0');
+            $('#camera').css('left','1280px');
+            $('#sound').css('left','1280px');  
+            $('#os').css('left','1280px');  
             });
          $('#superspecs>nav>ul>li:nth-child(4)').on('click',function(){
             $('#os').css('left','0');
@@ -106,6 +106,10 @@ $(function(){
    
     // CLICK ON THE STICKY
      $("#sticky").on('click', function(){
+     window.location = "http://www.apple.com/shop/buy-iphone/iphone-7";    
+     });
+     // CLICK ON THE BUY NOW BUTTON IN #GETYOURSTODAY
+     $("#buynow").on('click', function(){
      window.location = "http://www.apple.com/shop/buy-iphone/iphone-7";    
      });
     
