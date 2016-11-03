@@ -12,14 +12,12 @@ body{
 
 /**SECTIONS' HEIGHT **/
 
-#introduction,#splash,#superspecs,#getyourstoday{
+#introduction,#splash,#superspecs{
     height:900px;
 }
-
-main section:nth-child(4){
-    background-color:red;
+#getyourstoday{
+    height:500px;
 }
-
 
 /** SIDE SECTION NAV **/
 
@@ -74,6 +72,7 @@ main section:nth-child(4){
     border-radius: 10px;
     width:200px;
     transition:all ease 1s;
+    cursor: pointer;
 }
 #sticky:hover{
     right:0;

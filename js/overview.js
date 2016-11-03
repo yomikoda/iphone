@@ -1,5 +1,7 @@
 $(function(){
     
+    
+    // ANIM H1+IMG INTRODUCTION SECTION 
     $( document ).ready(function() {
         $('#leftblock h1').css({'opacity':'1','top':'130px',function(){
             $('#introiphone').css({'opacity':'1','bottom':'80px'});
@@ -102,7 +104,9 @@ $(function(){
             });  
             
    
-    
-     
+    // CLICK ON THE STICKY
+     $("#sticky").on('click', function(){
+     window.location = "http://www.apple.com/shop/buy-iphone/iphone-7";    
+     });
     
 });
