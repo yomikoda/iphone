@@ -33,13 +33,18 @@ body {
 main {
     width: 1280px;
     margin: 0 auto;
+<<<<<<< HEAD
     height: 2300px;
+=======
+    padding-top:30px;
+>>>>>>> c9124e3ce7a6fdbba7b92ff410ba967e98c66a61
 }
 
 
 /** MENU **/
 
 header {
+    z-index: 100;
     margin: 0 auto;
     height: 30px;
     background-color: white;
@@ -49,6 +54,8 @@ header {
     width: 100%;
     left: 50%;
     margin-left: -50%;
+    opacity:1;
+    transition:all ease 0.5s;
 }
 
 header nav {
