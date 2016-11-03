@@ -12,7 +12,7 @@ body{
 
 /**SECTIONS' HEIGHT **/
 
-#introduction,#splash,#superspecs,#accessories,#getyourstoday{
+#introduction,#splash,#superspecs,#getyourstoday{
     height:900px;
 }
 
@@ -26,13 +26,13 @@ main section:nth-child(4){
 #side {
     position: fixed;
     top: 50%;
-    margin-top: -100px;
+    margin-top: -80px;
     z-index: 30;
 }
 
 #side ul {
     list-style: none;
-    height: 200px;
+    height: 160px;
     width: 30px;
 }
 
@@ -410,15 +410,11 @@ main section:nth-child(4){
 #camera{
     left:0px;
 }
-#display,#sound{
+#display,#sound,#os{
     left:1280px;
     
 }
 
-#os{
-    background-color:purple;
-    left:1280px;
-}
 /** SUPERSPECS CONTENT **/
 .block{
     width:50%;
@@ -434,7 +430,7 @@ main section:nth-child(4){
 #camera div:nth-child(2),#display div:nth-child(2){
     background-color:black;
 }
-#camera div:nth-child(2) p,#display div:nth-child(2) p{
+#camera div:nth-child(2) p,#display div:nth-child(2) p,#os div:nth-child(2) p{
     color:white;
     font-family: quicksand-light;
     font-size: 20px;
@@ -484,4 +480,31 @@ main section:nth-child(4){
 }
 #sound div:nth-child(2) p:first-child{
     margin-top:300px;
+}
+
+/** IOS SECTION **/
+#os div:first-child{
+    background:url(../images/overview/ios-section.jpg) no-repeat center;
+}
+#os div:nth-child(2) p{
+    color:black;
+    height:50px;
+}
+#os div:nth-child(2) a{
+    text-decoration: none;
+    display: block;
+    width:100%;
+    text-align: center;
+    font-family: quicksand-regular;
+    color:dodgerblue;
+    font-size: 15px;
+    margin-top:420px;
+    height:30px;
+    line-height: 30px;
+    transition: all ease 1s;
+}
+#os div:nth-child(2) a:hover{
+    text-decoration: underline;
+    transition: all ease 1s;
+    font-size: 16px;
 }

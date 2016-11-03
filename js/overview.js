@@ -27,11 +27,7 @@ $(function(){
         return false;
     });
      $('#side>ul>li:nth-child(4)').on('click',function(){
-        $('html,body').stop().animate({scrollTop:$('#accessories').offset().top-30},2500);
-        return false;
-    });
-     $('#side>ul>li:nth-child(5)').on('click',function(){
-        $('html,body').stop().animate({scrollTop:$('#getyourstoday').offset().top-30},3000);
+        $('html,body').stop().animate({scrollTop:$('#getyourstoday').offset().top-30},2500);
         return false;
     });
 
