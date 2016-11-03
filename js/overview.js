@@ -113,4 +113,6 @@ $(function(){
      window.location = "http://www.apple.com/shop/buy-iphone/iphone-7";    
      });
     
+    
+    
 });
